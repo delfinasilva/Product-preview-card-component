@@ -24,3 +24,9 @@ body
 {
    text-align: center;
 }
+input
+{
+    background-color: green;
+    border-radius: .5em;
+
+}
