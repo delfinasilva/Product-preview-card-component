@@ -1,32 +1,66 @@
-article
-{
-    background-color: white;
-    min-width: 16em;
-    max-width: 50em;
-    height: auto;
-    margin: auto;
-    padding-left: 0em;
-    padding-right: 0em;
-    padding-bottom: 1em;
-    border-radius: 1em;
-}
-img
-{
-    width: 100%;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-}
-body
-{
-    background-color: rgb(245, 214, 214);
-}
-*
-{
-   text-align: center;
-}
-input
-{
-    background-color: green;
-    border-radius: .5em;
-
-}
+/* Estilos para dispositivos Desktop */
+@media (min-width: 1000px) {
+    article {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0px;
+    }
+  
+    img {
+      width: 100%;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+    }
+  
+    .product-info {
+      background-color: white;
+      padding: 1em;
+      border-bottom-left-radius: 1em;
+      border-bottom-right-radius: 1em;
+    }
+  
+    body {
+      background-color: rgb(245, 214, 214);
+    }
+  
+    * {
+      text-align: center;
+    }
+  
+    input {
+      background-color: green;
+      border-radius: .5em;
+    }
+  }
+  
+  /* Estilos para dispositivos Móveis */
+  @media (max-width: 999px) {
+    article {
+      display: block;
+    }
+  
+    img {
+      width: 100%;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+  
+    .product-info {
+      background-color: white;
+      padding: 1em;
+    }
+  
+    body {
+      background-color: rgb(245, 214, 214);
+    }
+  
+    * {
+      text-align: center;
+    }
+  
+    input {
+      background-color: green;
+      border-radius: .5em;
+    }
+  }
+  
