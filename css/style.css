@@ -9,13 +9,13 @@
     img {
       width: 100%;
       border-top-left-radius: 1em;
-      border-top-right-radius: 1em;
+      border-bottom-left-radius: 1em;
     }
   
     .product-info {
       background-color: white;
       padding: 1em;
-      border-bottom-left-radius: 1em;
+     border-top-right-radius: 1em;
       border-bottom-right-radius: 1em;
     }
   
@@ -41,13 +41,15 @@
   
     img {
       width: 100%;
-      border-top-left-radius: 0;
-      border-top-right-radius: 0;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
     }
   
     .product-info {
       background-color: white;
       padding: 1em;
+      border-bottom-left-radius: 1em;
+      border-bottom-right-radius: 1em;
     }
   
     body {
